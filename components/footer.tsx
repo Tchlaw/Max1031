@@ -12,8 +12,7 @@ export default function Footer() {
               <Logo variant="light" />
             </Link>
             <p className="text-sky-100 text-sm">
-              Your trusted Qualified Intermediary for 1031 exchanges, helping you defer capital gains taxes on real
-              estate investments.
+              Helping you defer capital gains taxes on real estate investments.
             </p>
           </div>
 
