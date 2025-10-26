@@ -53,14 +53,14 @@ export default function Navbar() {
               Home
             </Link>
             <Link
-              href="#about"
+              href="/#about"
               className="block text-sm font-medium text-gray-700 hover:text-blue-500 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               About
             </Link>
             <Link
-              href="#LearnAbout1031"
+              href="/blog"
               className="block text-sm font-medium text-gray-700 hover:text-blue-500 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
