@@ -14,7 +14,7 @@ export default function Home() {
               Get ready to defer capital gains.
             </h1>
             <p className="text-xl text-sky-100 mb-8">
-              We are ready to act as your Qualified Intermediary to help you defer taxes on your next real estate sale.
+              We are ready to help you defer taxes on your next real estate sale.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-blue-500 hover:bg-blue-600 text-white font-medium">
@@ -44,7 +44,7 @@ export default function Home() {
               exchanges.
             </p>
             <p className="text-lg text-gray-700 mb-8">
-              As your Qualified Intermediary, we ensure that your exchange complies with IRS regulations, allowing you
+              We ensure that your exchange complies with IRS regulations, allowing you
               to defer your capital gains taxes and maximize your investment potential.
             </p>
             <div className="text-center">

@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Maximize 1031 | Defer Capital Gains Taxes",
-  description: "Maximize 1031 is your Qualified Intermediary to help you defer taxes on your next real estate sale.",
+  description: "Maximize 1031 is here to help you defer taxes on your next real estate sale.",
     generator: 'v0.dev'
 }
 
