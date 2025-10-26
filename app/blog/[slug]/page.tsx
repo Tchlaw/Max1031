@@ -8,7 +8,21 @@ const posts = {
     title: "Understanding 1031 Exchange Basics",
     date: "2024-01-15",
     content: `
+      <h2>What is a 1031 Exchange?</h2>
+      <p>A 1031 exchange, also known as a like-kind exchange, is a swap of one investment property for another that allows capital gains taxes to be deferred. The term gets its name from Section 1031 of the Internal Revenue Code.</p>
       
+      <h2>Key Requirements</h2>
+      <p>To qualify for a 1031 exchange, you must meet several important requirements:</p>
+      <ul>
+        <li>The property must be held for investment or business purposes</li>
+        <li>You must identify replacement property within 45 days</li>
+        <li>You must complete the exchange within 180 days</li>
+        <li>You must use a Qualified Intermediary</li>
+      </ul>
+      
+      <h2>Benefits of a 1031 Exchange</h2>
+      <p>The primary benefit is the deferral of capital gains taxes, allowing you to reinvest the full proceeds from your sale into a new property. This can significantly increase your purchasing power and help build wealth over time.</p>
+    `
   },
   "choosing-replacement-property": {
     title: "How to Choose the Right Replacement Property",
