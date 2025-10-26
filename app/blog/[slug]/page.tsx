@@ -97,6 +97,15 @@ const posts = {
         <p>Align your replacement with your investment strategy. Consider whether you want to maintain the same asset type or diversify (for example, exchanging retail for industrial).</p>
 
         <p>Always verify cap rates, condition, and tenant stability to ensure the exchange strengthens—not weakens—your portfolio.</p>
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #ccc;" />
+
+        <h2 style="font-size: 1.25rem;">Considering a 1031 Exchange?</h2>
+        <p>We partner with experienced Qualified Intermediaries and help investors evaluate whether a 1031 fits their goals. <a href="/contact" style="color: #0056b3; text-decoration: underline;">Contact us</a> to discuss your next move.</p>
+
+        <p style="font-size: 0.9rem; color: #666;"><em>Disclaimer:</em> This content is for educational purposes only and not tax or legal advice. Consult your CPA or attorney for personalized guidance.</p>
+
+      
       </div>
     `
   }
