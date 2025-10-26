@@ -22,6 +22,20 @@ export default function BlogPage() {
   return (
     <div className="container mx-auto py-12 px-4">
       <h1 className="text-4xl font-bold mb-8">Blog</h1>
+
+      <section className="relative bg-gradient-to-r from-sky-900 to-blue-800 py-24 md:py-32">
+        <div className="container px-4 md:px-6 mx-auto">
+          <div className="max-w-3xl mx-auto text-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter text-white mb-6">
+              Learn About 1031 Exchanges
+            </h1>
+            <p className="text-xl text-sky-100 mb-8">
+            
+          </div>
+        </div>
+      </section>
+      
+      
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {posts.map((post) => (
           <article key={post.slug} className="border rounded-lg p-6">
