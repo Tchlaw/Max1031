@@ -26,7 +26,7 @@ export default function Home() {
                 size="lg"
                 className="bg-transparent border-white text-white hover:bg-white/10"
               >
-                <Link href="#about">Learn More</Link>
+                <Link href="/blog">Learn More</Link>
               </Button>
             </div>
           </div>
