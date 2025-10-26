@@ -2,7 +2,6 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 // This is a simple example - you'll expand this
-
 const posts = [
   {
     slug: "1031-exchange-basics",
@@ -20,12 +19,8 @@ const posts = [
 
 export default function BlogPage() {
   return (
-
-            
-     <div className="container mx-auto py-12 px-4">
-      <h1 className="text-4xl font-bold mb-8">Learn About 1031 Exchanges</h1>
-      
-      
+    <div className="container mx-auto py-12 px-4">
+      <h1 className="text-4xl font-bold mb-8">Blog</h1>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {posts.map((post) => (
           <article key={post.slug} className="border rounded-lg p-6">
