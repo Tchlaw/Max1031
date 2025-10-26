@@ -78,7 +78,7 @@ const posts = {
         <hr style="margin: 2rem 0; border: none; border-top: 1px solid #ccc;" />
 
         <h2 style="font-size: 1.25rem;">Considering a 1031 Exchange?</h2>
-        <p>We partner with experienced Qualified Intermediaries and help investors evaluate whether a 1031 fits their goals. <a href="/contact" style="color: #0056b3; text-decoration: underline;">Contact us</a> to discuss your next move or <a href="/office-hours" style="color: #0056b3; text-decoration: underline;">book office hours</a> to get started.</p>
+        <p>We partner with experienced Qualified Intermediaries and help investors evaluate whether a 1031 fits their goals. <a href="/contact" style="color: #0056b3; text-decoration: underline;">Contact us</a> to discuss your next move.</p>
 
         <p style="font-size: 0.9rem; color: #666;"><em>Disclaimer:</em> This content is for educational purposes only and not tax or legal advice. Consult your CPA or attorney for personalized guidance.</p>
       </div>
