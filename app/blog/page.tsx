@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button"
 
 // This is a simple example - you'll expand this
 
-this is a test
 const posts = [
   {
     slug: "1031-exchange-basics",
