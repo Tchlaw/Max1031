@@ -20,15 +20,10 @@ const posts = [
 
 export default function BlogPage() {
   return (
-    <div className="container mx-auto py-12 px-4">
-      <h1 className="text-4xl font-bold mb-8">Blog</h1>
 
-        
-              Learn About 1031 Exchanges
-            </h1>
-            <p className="text-xl text-sky-100 mb-8">
             
-     
+     <div className="container mx-auto py-12 px-4">
+      <h1 className="text-4xl font-bold mb-8">Learn About 1031 Exchanges</h1>
       
       
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
