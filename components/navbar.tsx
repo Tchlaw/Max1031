@@ -26,7 +26,7 @@ export default function Navbar() {
             <Link href="#about" className="text-sm font-medium text-gray-700 hover:text-blue-500 transition-colors">
               About
             </Link>
-            <Link href="/Blog" className="text-sm font-medium text-gray-700 hover:text-blue-500 transition-colors">
+            <Link href="/Blog/page.tsx" className="text-sm font-medium text-gray-700 hover:text-blue-500 transition-colors">
               Learn About 1031 Exchanges
             </Link>
             <Button asChild className="bg-blue-500 hover:bg-blue-600 text-white ml-4">
