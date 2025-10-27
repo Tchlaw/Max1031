@@ -537,8 +537,7 @@ const posts = {
       </p>
 
       <p>
-        <a href="/contact" style="color:#0056b3; text-decoration:underline;">Contact us</a> or 
-        <a href="/office-hours" style="color:#0056b3; text-decoration:underline;">book office hours</a> to discuss how to implement this before year-end.
+        <a href="/contact" style="color:#0056b3; text-decoration:underline;">Contact us</a>.
       </p>
 
       <p style="font-size:0.9rem; color:#666;">
@@ -547,7 +546,153 @@ const posts = {
       </p>
     </div>
   `
-  }
+  },
+
+
+"reverse-1031-exchange-guide-california": {
+  title: "Reverse 1031 Exchange Guide for California Investors: Buy First, Sell Later",
+  date: "2025-07-09",
+  content: `
+    <div style="font-family: Arial, sans-serif; line-height: 1.7; color: #222;">
+      <h2 style="color:#111; font-size:1.75rem; margin-top:1.5rem;">Introduction — Why Go “Reverse”?</h2>
+      <p>
+        Los Angeles inventory is tight, cap rates compress overnight, and the perfect NNN deal rarely waits around while you liquidate your current asset.
+        A <strong>reverse 1031 exchange</strong> solves that timing dilemma: you can <strong>park</strong> (temporarily hold) the new property,
+        close on it today, and dispose of your relinquished property up to 180 days later — all while deferring capital gains tax.
+      </p>
+      <p>
+        This step-by-step California-centric playbook is written for investors with <strong>$500,000+</strong> in taxable gains and for advisors who guide them.
+      </p>
+
+      <h2 style="color:#111; font-size:1.75rem; margin-top:1.5rem;">1. Reverse Exchange Basics</h2>
+      <h3 style="font-size:1.25rem; margin-top:1rem;">1.1 What Is a Reverse 1031?</h3>
+      <p>
+        A reverse exchange flips the usual order of events. Under <strong>IRS Revenue Procedure 2000-37</strong>,
+        a third-party <strong>Exchange Accommodation Titleholder (EAT)</strong> purchases and “parks” either
+        (a) the replacement property you’re buying or (b) the property you plan to sell.
+        The EAT holds legal title so you’re never on title to both at the same time — satisfying §1031’s like-kind rules.
+      </p>
+      <p><a href="https://www.irs.gov/pub/irs-drop/rp-00-37.pdf" target="_blank" style="color:#0056b3;">IRS Rev. Proc. 2000-37 (PDF)</a></p>
+
+      <h3 style="font-size:1.25rem; margin-top:1rem;">1.2 Key Players</h3>
+      <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; margin-top:0.5rem;">
+        <thead style="background:#f8f8f8;">
+          <tr><th align="left">Role</th><th align="left">What They Do</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Exchanger (You)</strong></td><td>Ultimately owns the replacement property and must meet 45/180-day deadlines.</td></tr>
+          <tr><td><strong>Qualified Intermediary (QI)</strong></td><td>Structures paperwork, escrows funds, coordinates with EAT.</td></tr>
+          <tr><td><strong>Exchange Accommodation Titleholder (EAT)</strong></td><td>Special-purpose LLC that parks title for up to 180 days.</td></tr>
+          <tr><td><strong>Bridge / Private Lender</strong></td><td>Finances the purchase while title is parked.</td></tr>
+        </tbody>
+      </table>
+
+      <h2 style="color:#111; font-size:1.75rem; margin-top:1.5rem;">2. Reverse Exchange Timeline</h2>
+      <p>
+        The IRS safe harbor allows a <strong>maximum 180-day parking window</strong>. Missing a deadline means your exchange fails.
+      </p>
+      <pre style="background:#f8f8f8; padding:1rem; border-radius:4px;">
+Day 0     | EAT acquires (parks) replacement property
+Day 45    | You identify the relinquished property you will sell
+Day 180   | You close the sale of the relinquished property
+      </pre>
+      <p>Use a 45/180-day deadline calculator to mark actual dates and build 20–30 days of cushion into your listing schedule — buyer delays are the #1 reason reverse exchanges collapse.</p>
+
+      <h2 style="color:#111; font-size:1.75rem; margin-top:1.5rem;">3. Financing the Parked Property</h2>
+      <p>
+        Traditional banks often hesitate to lend when an EAT holds title. Common options include:
+      </p>
+      <ul style="margin-left:1.5rem;">
+        <li><strong>Bridge (hard-money) loan</strong> secured by the parked asset. Rates are 2–3% above bank debt but can close in days.</li>
+        <li><strong>Seller carryback</strong> from the replacement-property seller — helpful when they need a fast close.</li>
+        <li><strong>Cash purchase + refinance</strong> once you take title.</li>
+      </ul>
+      <p>Always have your attorney review loan documents — some contain covenants that conflict with EAT ownership.</p>
+
+      <h2 style="color:#111; font-size:1.75rem; margin-top:1.5rem;">4. California-Specific Considerations</h2>
+      <h3 style="font-size:1.25rem; margin-top:1rem;">4.1 Documentary Transfer Tax (DTT)</h3>
+      <p>
+        Because title transfers twice (seller → EAT, then EAT → you), some counties assess DTT on both. Budget for this or negotiate a cost split.
+      </p>
+
+      <h3 style="font-size:1.25rem; margin-top:1rem;">4.2 Claw-Back of Deferred Gain</h3>
+      <p>
+        If you later move the replacement property <strong>out of California</strong>, the Franchise Tax Board may recapture deferred gain.
+        File <strong>FTB Form 3840</strong> annually to track California-source gain even if the exchange is fully deferred federally.
+      </p>
+
+      <h3 style="font-size:1.25rem; margin-top:1rem;">4.3 Community-Property Nuances</h3>
+      <p>
+        Married investors holding title as community property must ensure both spouses sign the exchange assignment to prevent a vesting mismatch later.
+      </p>
+
+      <h2 style="color:#111; font-size:1.75rem; margin-top:1.5rem;">5. Cost Breakdown (Example $3 M Purchase / $3 M Sale)</h2>
+      <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%;">
+        <thead style="background:#f8f8f8;"><tr><th align="left">Fee Category</th><th align="left">Typical Range</th></tr></thead>
+        <tbody>
+          <tr><td>EAT / Parking LLC setup</td><td>$3,500–$6,000</td></tr>
+          <tr><td>QI reverse-exchange fee</td><td>$3,000–$5,000</td></tr>
+          <tr><td>Bridge-loan interest (3 mo @ 11%)</td><td>≈ $82,500 per $3 M borrowed</td></tr>
+          <tr><td>Extra escrow &amp; title</td><td>$2,000–$4,000</td></tr>
+          <tr><td>Second DTT (if applicable)</td><td>Varies by county</td></tr>
+        </tbody>
+      </table>
+      <p>Total soft costs typically equal <strong>1.5–2 % of purchase price</strong> (excluding finance interest).</p>
+
+      <h2 style="color:#111; font-size:1.75rem; margin-top:1.5rem;">6. Case Study – Duplex to NNN Retail</h2>
+      <p>
+        <em>Investor profile:</em> LA landlord, 20-year hold, $4 M duplex, $1 M equity, $1 M gain. <br/>
+        <em>Goal:</em> Secure a $3.8 M CVS in San Diego before duplex sale.
+      </p>
+      <ol style="margin-left:1.5rem;">
+        <li><strong>Day 0 –</strong> EAT acquires CVS with $2.8 M bridge loan + $1 M cash.</li>
+        <li><strong>Day 33 –</strong> Duplex listed for sale.</li>
+        <li><strong>Day 45 –</strong> Duplex identified as relinquished property.</li>
+        <li><strong>Day 120 –</strong> Duplex sale closes; proceeds pay off bridge loan.</li>
+        <li><strong>Day 121 –</strong> EAT transfers CVS to investor — gain deferred ≈ $800 k federal + state.</li>
+      </ol>
+
+      <h2 style="color:#111; font-size:1.75rem; margin-top:1.5rem;">7. Common Pitfalls &amp; Fixes</h2>
+      <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%;">
+        <thead style="background:#f8f8f8;"><tr><th align="left">Pitfall</th><th align="left">Mitigation</th></tr></thead>
+        <tbody>
+          <tr><td>Missing 180-day deadline</td><td>Pre-list or pre-negotiate sale before parking.</td></tr>
+          <tr><td>Debt-equity mismatch</td><td>Replacement debt ≤ relinquished debt; refinance after exchange closes.</td></tr>
+          <tr><td>Contract not assigned to EAT</td><td>Add “and/or assigns” and formal assignment before closing.</td></tr>
+          <tr><td>Lender rejects EAT structure</td><td>Vet lenders early; use bridge/private financing.</td></tr>
+        </tbody>
+      </table>
+
+      <h2 style="color:#111; font-size:1.75rem; margin-top:1.5rem;">8. FAQ</h2>
+      <p><strong>Q:</strong> Can I park the relinquished property instead of the replacement?<br/>
+      <strong>A:</strong> Yes. That’s an <em>exchange-last</em> structure — reduces financing issues but requires more cash.</p>
+
+      <p><strong>Q:</strong> Does depreciation recapture still defer?<br/>
+      <strong>A:</strong> Yes, it’s deferred (not eliminated) if replacement value ≥ relinquished basis.</p>
+
+      <p><strong>Q:</strong> What if my buyer falls through at Day 170?<br/>
+      <strong>A:</strong> You may substitute a backup buyer within 180 days; past that, gain is taxable.</p>
+
+      <h2 style="color:#111; font-size:1.75rem; margin-top:1.5rem;">9. Next Steps</h2>
+      <p>
+        Ready to see if a reverse exchange fits your goals? 
+        <strong>Book a complimentary 15-minute consult</strong> with <strong>Shant Tchakerian, Esq.</strong> —
+        Los Angeles-based attorney &amp; investor — for personalized guidance on timelines, financing, and compliance.
+      </p>
+
+      <hr style="margin:2rem 0; border:none; border-top:1px solid #ccc;"/>
+
+      <h2 style="font-size:1.25rem;">Compliance Disclaimer</h2>
+      <p style="font-size:0.9rem; color:#555;">
+        Material is for informational purposes only. This material does not provide investment, legal, or tax advice.
+      </p>
+
+      <p style="font-size:0.85rem; color:#666;">© 2025 Maximize 1031 — Personalized 1031 Exchange Solutions for California Investors</p>
+    </div>
+  `
+}
+
+  
 
 }
 
