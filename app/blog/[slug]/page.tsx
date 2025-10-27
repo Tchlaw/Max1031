@@ -396,22 +396,7 @@ const posts = {
       Always consult your CPA or attorney before making financial decisions related to disaster recovery or property reinvestment.</p>
     </div>
   `
-  }, 
-  
-  "bona-fide-1031-failed-exchange-tax-deferral": {
-  title: "How a Bona Fide 1031 Attempt Can Defer Taxes Into the Next Year — Even If It Fails",
-  date: "2025-10-26",
-  content: `
-      `
-  },
-
-
-"reverse-1031-exchange-guide-california": {
-  title: "Reverse 1031 Exchange Guide for California Investors: Buy First, Sell Later",
-  date: "2025-07-09",
-  content: `
-        `
-}
+  }
 }
 
 
