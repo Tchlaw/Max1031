@@ -254,8 +254,150 @@ const posts = {
       Always consult your CPA or attorney regarding your specific circumstances.</p>
     </div>
   `
-}
+},
 
+"selling-fire-damaged-lot-after-buying-new-home": {
+  title: "What Happens If You Buy a New Home Before Selling Your Fire-Damaged Lot?",
+  date: "2025-10-26",
+  content: `
+    <div style="font-family: Arial, sans-serif; line-height: 1.7; color: #222;">
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">A Common Scenario After Wildfire Loss</h2>
+      <p>
+        After a wildfire, many homeowners move quickly to secure housing for their family — sometimes purchasing a new home right away, 
+        before insurance funds or sale proceeds from the damaged property arrive.  
+        Later, when the original lot is sold, they wonder: <em>“Can I still defer or exclude capital gains taxes?”</em>
+      </p>
+
+      <p>
+        The answer depends on <strong>how the properties were used</strong>, the <strong>timing of your purchase and sale</strong>, 
+        and which parts of the tax code apply — usually <strong>Section 1033 (Involuntary Conversion)</strong> 
+        and <strong>Section 121 (Primary Residence Exclusion)</strong>.
+      </p>
+
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">The Core Issue: Sequence and Intent</h2>
+      <p>
+        When you buy your new home first, then sell the fire-damaged lot later, 
+        the IRS looks at whether the two transactions are part of a single “involuntary conversion” event — 
+        that is, whether the sale of your damaged property and the purchase of your new one are connected by the fire loss itself.
+      </p>
+      <p>
+        The key question: Did you buy the new home <strong>as a replacement</strong> for your destroyed residence?
+      </p>
+
+      <blockquote style="border-left: 4px solid #ccc; padding-left: 1rem; color: #555; margin: 1.5rem 0;">
+        <strong>Intent matters:</strong> If you clearly intended to replace your destroyed home and acted within the permitted timeframe, 
+        you may still qualify for tax deferral under <strong>§1033</strong> — even if you purchased the new home first.
+      </blockquote>
+
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">Option 1 – Section 1033 (Involuntary Conversion for Primary Residence)</h2>
+      <p>
+        Under Section 1033, if your property was destroyed by fire or other casualty and you receive insurance or sale proceeds, 
+        you can defer gain by <strong>reinvesting in replacement property similar or related in service or use</strong> 
+        — typically another home for personal use.
+      </p>
+
+      <ul style="margin-left: 1.5rem;">
+        <li><strong>Timing:</strong> You usually have <strong>2 years</strong> from the end of the tax year when you realized the gain 
+        (extended to <strong>4 years</strong> in federally declared disaster areas).</li>
+        <li><strong>Order of events:</strong> You may buy the new home <em>before</em> selling the old lot, as long as it’s clear the purchase 
+        was intended to replace the destroyed residence.</li>
+        <li><strong>Proof of intent:</strong> Keep records — insurance claims, contractor quotes, communications — 
+        showing that your new home was acquired as part of your recovery process.</li>
+      </ul>
+
+      <p>
+        If you sell your damaged lot within the allowed §1033 window and reinvest the insurance and sale proceeds 
+        into the cost of your new residence (or to pay down its loan), you can generally <strong>defer recognition of gain</strong>.
+      </p>
+
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">Option 2 – Section 121 (Home Sale Exclusion)</h2>
+      <p>
+        If the fire-damaged property was your primary home and you meet the 
+        <strong>two-out-of-five-year use test</strong>, you may exclude up to <strong>$250,000</strong> 
+        of gain (or <strong>$500,000</strong> if married filing jointly).  
+        This exclusion often applies to the <em>home itself</em> and may also apply to proceeds from the destroyed structure.
+      </p>
+
+      <p>
+        However, if you’ve already purchased and moved into a new home before selling the damaged lot, 
+        the IRS still allows the §121 exclusion on the destroyed home — provided you <strong>owned and used</strong> it 
+        as your principal residence for two of the last five years before the casualty.
+      </p>
+
+      <blockquote style="border-left: 4px solid #ccc; padding-left: 1rem; color: #555; margin: 1.5rem 0;">
+        <strong>Example:</strong> You owned and lived in your home for 10 years.  
+        A fire in 2024 destroys it, and you move out.  
+        In early 2025, you buy a new home and later sell the damaged lot for $600,000.  
+        You can generally claim the §121 exclusion on the gain from your destroyed home — even though you already bought the new one.
+      </blockquote>
+
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">Option 3 – Combining §121 and §1033</h2>
+      <p>
+        In many cases, homeowners can use both provisions together:
+      </p>
+      <ul style="margin-left: 1.5rem;">
+        <li>First apply the <strong>§121 exclusion</strong> to exclude up to $250K/$500K of gain.</li>
+        <li>Then use <strong>§1033</strong> to defer the remaining gain by reinvesting in your replacement home.</li>
+      </ul>
+
+      <p>
+        This combination can eliminate tax entirely if the reinvestment matches or exceeds your total insurance and sale proceeds.
+      </p>
+
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">Timing Matters</h2>
+      <p>
+        The clock starts when you <strong>receive insurance proceeds or close the sale</strong> of the damaged property.  
+        You generally have until two (or four) years after the end of that tax year to complete your replacement purchase.
+      </p>
+      <p>
+        If you bought your new home shortly after the fire and later sell your old lot, you can usually elect §1033 treatment 
+        as long as the transactions occur within the permitted window and the proceeds ultimately go toward your replacement residence.
+      </p>
+
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">Documentation Tips</h2>
+      <ul style="margin-left: 1.5rem;">
+        <li>Keep escrow statements, insurance settlement details, and closing docs for both properties.</li>
+        <li>Document that your new home replaced the one destroyed — same family use, similar size or purpose.</li>
+        <li>Note disaster declaration status if applicable — it can extend deadlines to 4 years.</li>
+        <li>Consult your CPA before filing to elect §1033 deferral properly.</li>
+      </ul>
+
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">What If You Keep the Old Lot for a While?</h2>
+      <p>
+        If you hold onto the burned lot for several years before selling, it can lose its “replacement intent” connection to the disaster.  
+        In that case, the IRS may treat the later sale as a <strong>separate investment transaction</strong> — not part of the §1033 deferral — 
+        and you may instead explore a <strong>§1031 exchange</strong> if you intend to reinvest the proceeds in other real estate.
+      </p>
+
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #ccc;" />
+
+      <h2 style="font-size: 1.25rem;">Summary</h2>
+      <ul style="margin-left: 1.5rem;">
+        <li>Buying a new home before selling your damaged lot <strong>does not automatically disqualify</strong> you from deferral.</li>
+        <li>Section <strong>1033</strong> deferral is still possible if your new home is clearly a replacement for the destroyed residence.</li>
+        <li>Section <strong>121</strong> exclusion may cover a portion of your gain, regardless of timing.</li>
+        <li>Proper documentation and timing are critical — intent must be clear.</li>
+      </ul>
+
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #ccc;" />
+
+      <h2 style="font-size: 1.25rem;">We Can Help You Navigate the Sequence</h2>
+      <p>
+        At Maximize 1031, we help homeowners and investors structure exchanges and reinvestments after disasters.  
+        If you’ve already bought a new home and are preparing to sell your damaged lot, we can help you evaluate how §1031, §1033, and §121 interact — 
+        and work with your CPA to protect your gain from unnecessary taxation.
+      </p>
+
+      <p>
+        <a href="/contact" style="color: #0056b3; text-decoration: underline;">Contact us</a> to discuss your specific case to plan your deferral timeline.
+      </p>
+
+      <p style="font-size: 0.9rem; color: #666;"><em>Disclaimer:</em> This article is for informational purposes only and does not constitute tax, legal, or investment advice.  
+      Always consult your CPA or attorney before making financial decisions related to disaster recovery or property reinvestment.</p>
+    </div>
+  `
+}
+  
 
 
 }
