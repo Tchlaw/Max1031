@@ -15,6 +15,15 @@ const posts = [
     excerpt: "Key factors to consider when selecting your replacement property for a successful exchange.",
     date: "2024-01-20"
   }
+  
+  {
+    slug: "deferring-gains-fire-damaged-lot",
+    title: "How to Defer Capital Gains When Selling Your Fire-Damaged Lot",
+    excerpt: "Learn how Sections 1031 and 1033 let property owners defer or eliminate capital gains taxes after a wildfire or disaster.",
+    date: "2025-10-26"
+}
+
+
 ]
 
 export default function BlogPage() {
