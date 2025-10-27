@@ -591,12 +591,7 @@ const posts = {
       <p>
         The IRS safe harbor allows a <strong>maximum 180-day parking window</strong>. Missing a deadline means your exchange fails.
       </p>
-      <pre style="background:#f8f8f8; padding:1rem; border-radius:4px;">
-Day 0     | EAT acquires (parks) replacement property
-Day 45    | You identify the relinquished property you will sell
-Day 180   | You close the sale of the relinquished property
-      </pre>
-      <p>Use a 45/180-day deadline calculator to mark actual dates and build 20–30 days of cushion into your listing schedule — buyer delays are the #1 reason reverse exchanges collapse.</p>
+      
 
       <h2 style="color:#111; font-size:1.75rem; margin-top:1.5rem;">3. Financing the Parked Property</h2>
       <p>
