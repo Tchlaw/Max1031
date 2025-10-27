@@ -35,7 +35,7 @@ const posts = [
   title: "How a Bona Fide 1031 Attempt Can Defer Taxes Into the Next Year — Even If It Fails",
   excerpt: "Selling late in the year? You can still push your capital gains into next year with a bona fide 1031 setup — even if the exchange fails.",
   date: "2025-10-26"
-}
+  }
 
 
 ]
