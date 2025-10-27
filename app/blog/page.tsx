@@ -28,9 +28,7 @@ const posts = [
   title: "What Happens If You Buy a New Home Before Selling Your Fire-Damaged Lot?",
   excerpt: "If you’ve already bought a new home but haven’t yet sold your damaged property, you may still qualify for tax deferral under Sections 1033 and 121 — here’s how.",
   date: "2025-10-26"
-}
-
-
+  }
 
 ]
 
