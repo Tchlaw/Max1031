@@ -7,13 +7,13 @@ const posts = [
     slug: "1031-exchange-basics",
     title: "Understanding 1031 Exchange Basics",
     excerpt: "Learn the fundamentals of 1031 exchanges and how they can help you defer capital gains taxes.",
-    date: "2024-01-15"
+    date: "2025-10-26"
   },
   {
     slug: "choosing-replacement-property",
     title: "How to Choose the Right Replacement Property",
     excerpt: "Key factors to consider when selecting your replacement property for a successful exchange.",
-    date: "2024-01-20"
+    date: "2025-10-26"
   },
   
   {
