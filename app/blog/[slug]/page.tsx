@@ -109,6 +109,156 @@ const posts = {
       </div>
     `
   }
+
+
+"deferring-gains-fire-damaged-lot": {
+  title: "How to Defer Capital Gains When Selling Your Fire-Damaged Lot",
+  date: "2025-10-26",
+  content: `
+    <div style="font-family: Arial, sans-serif; line-height: 1.7; color: #222;">
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">Understanding Your Options After a Fire Loss</h2>
+      <p>
+        If your property was damaged or destroyed in a wildfire or other disaster, you may face a difficult decision once the insurance claim is settled — 
+        whether to rebuild, sell, or move on. 
+        The good news is that <strong>federal tax law provides ways to defer or eliminate capital gains taxes</strong> 
+        when selling a fire-damaged property, under Sections <strong>1031</strong> and <strong>1033</strong> of the Internal Revenue Code.
+      </p>
+
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">Why a Fire Sale Can Still Create Tax Liability</h2>
+      <p>
+        Even when your property suffers a total loss, you may owe capital gains taxes if your <em>insurance proceeds or sale price</em> 
+        exceed your adjusted basis (usually the original cost plus improvements).  
+        For longtime California homeowners, this can mean hundreds of thousands of dollars in taxable gain — even after tragedy.
+      </p>
+
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">Option 1 – Section 1033: Involuntary Conversion (Disaster or Condemnation)</h2>
+      <p>
+        Section 1033 applies when property is destroyed by fire, theft, or other casualty and the owner receives insurance or other compensation.  
+        It allows you to <strong>reinvest in replacement property and defer the gain</strong> if done within a specific time frame.
+      </p>
+
+      <ul style="margin-left: 1.5rem;">
+        <li><strong>Who qualifies:</strong> Owners whose property was destroyed or condemned involuntarily.</li>
+        <li><strong>Time limit:</strong> Typically <strong>2 years</strong> from the end of the tax year when the gain is realized (extended to <strong>4 years</strong> in federally declared disaster areas).</li>
+        <li><strong>Replacement property:</strong> Must be “similar or related in service or use.”  
+            For investment or rental property, this usually means other investment real estate.</li>
+        <li><strong>How to elect:</strong> Report the transaction on your tax return and file an election under Section 1033.</li>
+      </ul>
+
+      <blockquote style="border-left: 4px solid #ccc; padding-left: 1rem; color: #555; margin: 1.5rem 0;">
+        <strong>Example:</strong> You receive $700,000 of insurance proceeds for a duplex that originally cost $300,000.  
+        If you reinvest the full $700,000 into another rental within two years, your $400,000 gain can be deferred under §1033.
+      </blockquote>
+
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">Option 2 – Section 1031: Like-Kind Exchange for Investment Property</h2>
+      <p>
+        If you sell the damaged land after a fire — for example, selling a burned lot rather than rebuilding — 
+        you can often use a <strong>1031 exchange</strong> to defer capital gains taxes, provided the property was held for investment.
+      </p>
+
+      <ul style="margin-left: 1.5rem;">
+        <li><strong>Timing:</strong> You have <strong>45 days</strong> to identify and <strong>180 days</strong> to close on replacement property after sale.</li>
+        <li><strong>Use a Qualified Intermediary (QI):</strong> You cannot receive the sale proceeds directly.</li>
+        <li><strong>Replacement property:</strong> Must also be held for investment or business use (not personal use).</li>
+        <li><strong>Combinations possible:</strong> In some cases, part of the gain may qualify under §1033 and part under §1031.</li>
+      </ul>
+
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">Comparing §1031 and §1033</h2>
+      <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; margin-top: 1rem;">
+        <thead style="background: #f8f8f8;">
+          <tr>
+            <th align="left">Feature</th>
+            <th align="left">Section 1031 (Like-Kind)</th>
+            <th align="left">Section 1033 (Involuntary Conversion)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Applies to</td>
+            <td>Voluntary sale of investment/business property</td>
+            <td>Involuntary loss (fire, theft, condemnation)</td>
+          </tr>
+          <tr>
+            <td>Deadline</td>
+            <td>45-day ID / 180-day close</td>
+            <td>2–4 years to reinvest</td>
+          </tr>
+          <tr>
+            <td>Qualified Intermediary required?</td>
+            <td>Yes</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>Replacement property type</td>
+            <td>Like-kind investment property</td>
+            <td>Similar or related in service or use</td>
+          </tr>
+          <tr>
+            <td>Applies to personal use property?</td>
+            <td>No</td>
+            <td>Sometimes, if primary residence destroyed</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">Option 3 – Primary Residence Exclusion (§121)</h2>
+      <p>
+        If your fire-damaged property was your <strong>primary home</strong>, 
+        you may qualify for the §121 exclusion, which allows individuals to exclude up to <strong>$250,000</strong> 
+        (or <strong>$500,000</strong> for married couples) of gain.  
+        If you receive insurance proceeds exceeding that exclusion, the remaining gain can sometimes be deferred under §1033.
+      </p>
+
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">Coordinating These Rules Strategically</h2>
+      <p>
+        Homeowners and investors often qualify for more than one section.  
+        For example, if you owned a multi-unit property where you lived in one unit and rented the rest, 
+        you might combine §121 for the residence portion with §1031 or §1033 for the rental portion.
+      </p>
+
+      <blockquote style="border-left: 4px solid #ccc; padding-left: 1rem; color: #555; margin: 1.5rem 0;">
+        <strong>Pro Tip:</strong> Keep detailed records of insurance payouts, repair costs, and sale documentation — 
+        they determine your adjusted basis and the portion of gain eligible for deferral.
+      </blockquote>
+
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">California and Local Tax Considerations</h2>
+      <p>
+        In California, both §1031 and §1033 are generally recognized for state income tax purposes, 
+        though rules differ on disaster declarations and timing.  
+        City transfer taxes typically still apply, but affected owners can petition local councils for waivers in extreme loss zones.
+      </p>
+
+      <h2 style="color: #111; font-size: 1.75rem; margin-top: 1.5rem;">Next Steps if You’re Considering a Sale</h2>
+      <ol style="margin-left: 1.5rem;">
+        <li>Confirm your insurance proceeds and adjusted basis.</li>
+        <li>Consult a CPA or tax attorney about whether §1031, §1033, or both apply.</li>
+        <li>Decide whether you’ll rebuild, reinvest, or exchange.</li>
+        <li>Work with a Qualified Intermediary early — timing and structure matter.</li>
+        <li>Document everything for IRS and insurance reporting.</li>
+      </ol>
+
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #ccc;" />
+
+      <h2 style="font-size: 1.25rem;">We Can Help You Plan the Right Deferral Strategy</h2>
+      <p>
+        At Maximize 1031, we specialize in helping property owners navigate tax-deferred reinvestment after a loss.  
+        Whether you’re rebuilding, selling a burned lot, or planning a replacement purchase, 
+        we’ll help you align with the right IRS provisions and connect you with trusted Qualified Intermediaries.
+      </p>
+
+      <p>
+        <a href="/contact" style="color: #0056b3; text-decoration: underline;">Contact us</a> for a consultation, or 
+        <a href="/office-hours" style="color: #0056b3; text-decoration: underline;">book office hours</a> to discuss your situation confidentially.
+      </p>
+
+      <p style="font-size: 0.9rem; color: #666;"><em>Disclaimer:</em> This article is for educational purposes only and does not constitute tax, legal, or investment advice.  
+      Always consult your CPA or attorney regarding your specific circumstances.</p>
+    </div>
+  `
+}
+
+
+
 }
 
 export default function BlogPost({ params }: { params: { slug: string } }) {
