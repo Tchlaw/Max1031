@@ -108,7 +108,7 @@ const posts = {
       
       </div>
     `
-  }
+  },
 
 
 "deferring-gains-fire-damaged-lot": {
