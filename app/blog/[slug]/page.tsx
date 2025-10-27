@@ -397,7 +397,7 @@ const posts = {
     </div>
   `
   }, 
-
+  
   "bona-fide-1031-failed-exchange-tax-deferral": {
   title: "How a Bona Fide 1031 Attempt Can Defer Taxes Into the Next Year — Even If It Fails",
   date: "2025-10-26",
@@ -689,13 +689,9 @@ Day 180   | You close the sale of the relinquished property
 
       <p style="font-size:0.85rem; color:#666;">© 2025 Maximize 1031 — Personalized 1031 Exchange Solutions for California Investors</p>
     </div>
-  `
+    `
 }
 }
-
-
-  
-
 
 
 export default function BlogPost({ params }: { params: { slug: string } }) {
