@@ -691,6 +691,8 @@ Day 180   | You close the sale of the relinquished property
     </div>
   `
 }
+}
+
 
   
 
