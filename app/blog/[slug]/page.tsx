@@ -247,8 +247,7 @@ const posts = {
       </p>
 
       <p>
-        <a href="/contact" style="color: #0056b3; text-decoration: underline;">Contact us</a> for a consultation, or 
-        <a href="/office-hours" style="color: #0056b3; text-decoration: underline;">book office hours</a> to discuss your situation confidentially.
+        <a href="/contact" style="color: #0056b3; text-decoration: underline;">Contact us</a> for a consultation to discuss your situation confidentially.
       </p>
 
       <p style="font-size: 0.9rem; color: #666;"><em>Disclaimer:</em> This article is for educational purposes only and does not constitute tax, legal, or investment advice.  
