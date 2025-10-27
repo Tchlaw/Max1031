@@ -694,7 +694,7 @@ Day 180   | You close the sale of the relinquished property
 
   
 
-}
+
 
 export default function BlogPost({ params }: { params: { slug: string } }) {
   const post = posts[params.slug as keyof typeof posts]
