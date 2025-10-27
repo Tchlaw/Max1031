@@ -255,8 +255,8 @@ const posts = {
     </div>
   `
 },
-
-"selling-fire-damaged-lot-after-buying-new-home": {
+  
+  "selling-fire-damaged-lot-after-buying-new-home": {
   title: "What Happens If You Buy a New Home Before Selling Your Fire-Damaged Lot?",
   date: "2025-10-26",
   content: `
