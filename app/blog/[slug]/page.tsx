@@ -395,7 +395,7 @@ const posts = {
       <p style="font-size: 0.9rem; color: #666;"><em>Disclaimer:</em> This article is for informational purposes only and does not constitute tax, legal, or investment advice.  
       Always consult your CPA or attorney before making financial decisions related to disaster recovery or property reinvestment.</p>
     </div>
-
+`
   }
 }
 
