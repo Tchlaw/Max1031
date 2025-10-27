@@ -28,13 +28,6 @@ const posts = [
   title: "What Happens If You Buy a New Home Before Selling Your Fire-Damaged Lot?",
   excerpt: "If you’ve already bought a new home but haven’t yet sold your damaged property, you may still qualify for tax deferral under Sections 1033 and 121 — here’s how.",
   date: "2025-10-26"
-  },
-
-  {
-  slug: "bona-fide-1031-failed-exchange-tax-deferral",
-  title: "How a Bona Fide 1031 Attempt Can Defer Taxes Into the Next Year — Even If It Fails",
-  excerpt: "Selling late in the year? You can still push your capital gains into next year with a bona fide 1031 setup — even if the exchange fails.",
-  date: "2025-10-26"
   }
 
 ]
