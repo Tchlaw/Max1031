@@ -1,58 +1,33 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+import Link from "next/link";
 
-// This is a simple example - you'll expand this
-const posts = [
-  {
-    slug: "1031-exchange-basics",
-    title: "Understanding 1031 Exchange Basics",
-    excerpt: "Learn the fundamentals of 1031 exchanges and how they can help you defer capital gains taxes.",
-    date: "2025-10-26"
-  },
-  
-  {
-    slug: "choosing-replacement-property",
-    title: "How to Choose the Right Replacement Property",
-    excerpt: "Key factors to consider when selecting your replacement property for a successful exchange.",
-    date: "2025-10-26"
-  },
-  
-  {
-    slug: "deferring-gains-fire-damaged-lot",
-    title: "How to Defer Capital Gains When Selling Your Fire-Damaged Lot",
-    excerpt: "Learn how Sections 1031 and 1033 let property owners defer or eliminate capital gains taxes after a wildfire or disaster.",
-    date: "2025-10-26"
-  },
+const postsDir = path.join(process.cwd(), "content/posts");
 
-  {
-  slug: "selling-fire-damaged-lot-after-buying-new-home",
-  title: "What Happens If You Buy a New Home Before Selling Your Fire-Damaged Lot?",
-  excerpt: "If you’ve already bought a new home but haven’t yet sold your damaged property, you may still qualify for tax deferral under Sections 1033 and 121 — here’s how.",
-  date: "2025-10-26"
-  }
+export default function BlogIndex() {
+  const files = fs.readdirSync(postsDir);
+  const posts = files.map((filename) => {
+    const fileContent = fs.readFileSync(path.join(postsDir, filename), "utf8");
+    const { data } = matter(fileContent);
+    return data;
+  });
 
-]
-
-export default function BlogPage() {
   return (
-    <div className="container mx-auto py-12 px-4">
-      <h1 className="text-4xl font-bold mb-8">Learn About 1031 Exchanges</h1>
-      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-        {posts.map((post) => (
-          <article key={post.slug} className="border rounded-lg p-6">
-            <h2 className="text-2xl font-semibold mb-2">
-              <Link href={`/blog/${post.slug}`} className="hover:underline">
-                {post.title}
-              </Link>
-            </h2>
-            <p className="text-gray-600 text-sm mb-4">{post.date}</p>
-            <p className="mb-4">{post.excerpt}</p>
-            <Button asChild variant="outline">
-              <Link href={`/blog/${post.slug}`}>Read More</Link>
-            </Button>
-          </article>
+    <div className="mx-auto max-w-2xl space-y-6">
+      <h1 className="text-3xl font-bold">Blog</h1>
+      {posts
+        .sort((a, b) => new Date(b.date) - new Date(a.date))
+        .map((post) => (
+          <div key={post.slug}>
+            <Link href={`/blog/${post.slug}`}>
+              <h2 className="text-xl font-semibold hover:underline">{post.title}</h2>
+            </Link>
+            <p className="text-gray-500 text-sm">
+              {new Date(post.date).toLocaleDateString()}
+            </p>
+          </div>
         ))}
-      </div>
     </div>
-  )
+  );
 }
