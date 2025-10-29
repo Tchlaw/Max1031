@@ -2,7 +2,6 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 
 
 const postsDir = path.join(process.cwd(), "content/posts");
@@ -18,7 +17,7 @@ export default function BlogIndex() {
   return (
 
 
-
+<>
         <div className="container px-4 md:px-6 mx-auto">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter text-white mb-6">
@@ -44,5 +43,6 @@ export default function BlogIndex() {
           </div>
         ))}
     </div>
+</>
   );
 }
