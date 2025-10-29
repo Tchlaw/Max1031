@@ -54,14 +54,14 @@ export default async function BlogPost({ params }: { params: { slug: string } })
       <div
         className="
           prose prose-lg
-          prose-headings:font-semibold
-          prose-a:text-blue-600
-          prose-a:underline-offset-2
-          prose-img:rounded-xl
-          prose-blockquote:border-l-blue-500
-          prose-blockquote:border-l-4
-          prose-blockquote:pl-4
-          prose-li:marker:text-blue-600
+          prose-table:border
+          prose-table:border-gray-300
+          prose-th:bg-gray-100
+          prose-th:font-semibold
+          prose-td:p-3
+          prose-th:p-3
+          prose-td:border
+          prose-th:border
           max-w-none
         "
       >
