@@ -65,7 +65,16 @@ export default async function BlogPost({ params }: { params: { slug: string } })
           max-w-none
         "
       >
-        <MDXRemote source={content} />
+        <MDXRemote
+  source={content}
+  options={{
+    mdxOptions: {
+      remarkPlugins: [require("remark-gfm")],
+      rehypePlugins: [require("rehype-pretty-code")],
+    },
+  }}
+/>
+
       </div>
 
       {/* -------- Related Posts -------- */}
