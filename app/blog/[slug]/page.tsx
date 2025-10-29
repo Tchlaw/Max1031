@@ -1,6 +1,3 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { ArrowLeft } from "lucide-react"
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
@@ -18,11 +15,15 @@ export async function generateStaticParams() {
 export default async function BlogPost({ params }) {
   const filePath = path.join(postsDir, `${params.slug}.mdx`);
   const file = fs.readFileSync(filePath, "utf8");
+
   const { content, data } = matter(file);
+
   return (
-    <article className="prose mx-auto">
-      <h1>{data.title}</h1>
-      <p>{new Date(data.date).toLocaleDateString()}</p>
+    <article className="prose mx-auto py-12">
+      <h1 className="text-4xl font-bold mb-4">{data.title}</h1>
+      <p className="text-gray-600 mb-8">
+        {new Date(data.date).toLocaleDateString()}
+      </p>
       <MDXRemote source={content} />
     </article>
   );
