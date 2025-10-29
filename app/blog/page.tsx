@@ -18,7 +18,7 @@ export default function BlogIndex() {
 
 
 <>
-        <div className="container px-4 md:px-6 mx-auto">
+        <div className="relative bg-gradient-to-r from-sky-900 to-blue-800 py-24 md:py-32">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter text-white mb-6">
               Learn About 1031 Exchanges
