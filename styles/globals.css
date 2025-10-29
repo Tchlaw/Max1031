@@ -88,3 +88,80 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+/* ----------------------------- */
+/* 📚 BLOG PROSE STYLES          */
+/* ----------------------------- */
+
+.prose {
+  max-width: 100%;
+}
+
+/* Headings */
+.prose h1,
+.prose h2,
+.prose h3 {
+  scroll-margin-top: 80px;
+  font-weight: 600;
+}
+
+.prose h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Links */
+.prose a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ----------------------------- */
+/* 🧊 Clean Minimal Table Styling */
+/* ----------------------------- */
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  display: block;              /* mobile scroll */
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.prose thead th {
+  font-weight: 600;
+  padding: 0.6rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb; /* Light Gray */
+  background-color: #f8fafc;        /* Slight tint */
+}
+
+.prose td {
+  padding: 0.55rem 0.6rem;
+  border-bottom: 1px solid #f3f4f6; /* Row dividers */
+}
+
+.prose tr:last-child td {
+  border-bottom: none;
+}
+
+/* Row hover */
+.prose tbody tr:hover td {
+  background: #f9fafb;
+}
+
+/* ----------------------------- */
+/* Quote Styling                 */
+/* ----------------------------- */
+
+.prose blockquote {
+  border-left: 4px solid #3b82f6;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #334155;
+  background: #f8fafc;
+}
+
