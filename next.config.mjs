@@ -1,3 +1,7 @@
+import createMDX from "@next/mdx";
+import remarkGfm from "remark-gfm";
+import rehypePrettyCode from "rehype-pretty-code";
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -9,6 +13,17 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-}
+  pageExtensions: ["ts", "tsx", "md", "mdx"],
+  experimental: {
+    mdxRs: true,
+  },
+};
 
-export default nextConfig
+const withMDX = createMDX({
+  options: {
+    remarkPlugins: [remarkGfm],
+    rehypePlugins: [rehypePrettyCode],
+  },
+});
+
+export default withMDX(nextConfig);
