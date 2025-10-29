@@ -11,7 +11,7 @@ export default function BlogIndex() {
   const posts = files.map((filename) => {
     const fileContent = fs.readFileSync(path.join(postsDir, filename), "utf8");
     const { data } = matter(fileContent);
-    return data;
+    return {data, slug: filename.replace(".mdx", "")};
   });
 
   return (
