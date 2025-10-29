@@ -16,6 +16,19 @@ export default function BlogIndex() {
   });
 
   return (
+
+
+
+        <div className="container px-4 md:px-6 mx-auto">
+          <div className="max-w-3xl mx-auto text-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter text-white mb-6">
+              Learn About 1031 Exchanges
+            </h1>
+            </div>
+          </div>
+
+
+    
     <div className="mx-auto max-w-2xl space-y-6">
       <h1 className="text-3xl font-bold">Blog</h1>
       {posts
