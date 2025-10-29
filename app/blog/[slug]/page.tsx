@@ -4,6 +4,9 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
+import rehypePrettyCode from "rehype-pretty-code";
+
 
 const postsDir = path.join(process.cwd(), "content/posts");
 
@@ -69,8 +72,8 @@ export default async function BlogPost({ params }: { params: { slug: string } })
   source={content}
   options={{
     mdxOptions: {
-      remarkPlugins: [require("remark-gfm")],
-      rehypePlugins: [require("rehype-pretty-code")],
+      remarkPlugins: [remarkGfm],
+      rehypePlugins: [rehypePrettyCode],
     },
   }}
 />
