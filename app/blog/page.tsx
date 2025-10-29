@@ -13,44 +13,49 @@ export default function BlogIndex() {
     const { data } = matter(fileContent);
 
     return {
-      ...data,                       // spread frontmatter
-      slug: filename.replace(".mdx", ""),  // add slug
+      ...data,
+      slug: filename.replace(".mdx", ""),
     };
   });
 
   return (
     <>
       {/* Hero Banner */}
-      <div className="relative bg-gradient-to-r from-sky-900 to-blue-800 py-24 md:py-32">
-        <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter text-white mb-6">
+      <section className="relative bg-gradient-to-r from-sky-900 to-blue-800 py-20 md:py-28">
+        <div className="max-w-3xl mx-auto text-center px-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
             Learn About 1031 Exchanges
           </h1>
+          <p className="text-sky-100 mt-4 text-lg max-w-xl mx-auto">
+            Clear, practical strategies to defer taxes, reinvest smarter, and build long-term wealth
+          </p>
         </div>
-      </div>
+      </section>
 
       {/* Blog List */}
-      <div className="mx-auto max-w-2xl px-4 space-y-6 py-12">
-        <h2 className="text-3xl font-bold mb-6">Blog</h2>
+      <section className="mx-auto max-w-3xl px-4 py-12 space-y-8">
+        <h2 className="text-2xl md:text-3xl font-bold">Latest Articles</h2>
 
         {posts
-          .sort((a, b) => new Date(b.date) - new Date(a.date))
+          .sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf())
           .map((post) => (
-            <div key={post.slug} className="border-b pb-4">
+            <article key={post.slug} className="border-b pb-6 hover:bg-gray-50 transition-colors rounded-lg p-3 -mx-3">
               <Link href={`/blog/${post.slug}`}>
-                <h3 className="text-xl font-semibold hover:underline cursor-pointer">
+                <h3 className="text-xl font-semibold hover:underline text-blue-700">
                   {post.title}
                 </h3>
               </Link>
-              <p className="text-gray-500 text-sm">
+              <p className="text-gray-500 text-sm mt-1">
                 {new Date(post.date).toLocaleDateString()}
               </p>
               {post.excerpt && (
-                <p className="text-gray-700 text-sm mt-2">{post.excerpt}</p>
+                <p className="text-gray-700 text-sm mt-3 leading-relaxed">
+                  {post.excerpt}
+                </p>
               )}
-            </div>
+            </article>
           ))}
-      </div>
+      </section>
     </>
   );
 }
