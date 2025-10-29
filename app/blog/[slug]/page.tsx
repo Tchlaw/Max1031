@@ -19,6 +19,21 @@ export default async function BlogPost({ params }: { params: { slug: string } })
   const file = fs.readFileSync(filePath, "utf8");
   const { content, data } = matter(file);
 
+  // ---- Load ALL posts (for Related Posts section) ----
+  const files = fs.readdirSync(postsDir);
+  const allPosts = files.map((filename) => {
+    const raw = fs.readFileSync(path.join(postsDir, filename), "utf8");
+    const { data: frontmatter } = matter(raw);
+    return {
+      ...frontmatter,
+      slug: filename.replace(".mdx", ""),
+    };
+  });
+
+  const related = (data.relatedPosts || [])
+    .map((slug: string) => allPosts.find((p) => p.slug === slug))
+    .filter(Boolean);
+
   return (
     <article className="mx-auto max-w-3xl px-4 py-12">
       <Link
@@ -36,20 +51,49 @@ export default async function BlogPost({ params }: { params: { slug: string } })
         {new Date(data.date).toLocaleDateString()}
       </p>
 
-      <div className="
-        prose prose-lg
-        prose-headings:font-semibold
-        prose-a:text-blue-600
-        prose-a:underline-offset-2
-        prose-img:rounded-xl
-        prose-blockquote:border-l-blue-500
-        prose-blockquote:border-l-4
-        prose-blockquote:pl-4
-        prose-li:marker:text-blue-600
-        max-w-none
-      ">
+      <div
+        className="
+          prose prose-lg
+          prose-headings:font-semibold
+          prose-a:text-blue-600
+          prose-a:underline-offset-2
+          prose-img:rounded-xl
+          prose-blockquote:border-l-blue-500
+          prose-blockquote:border-l-4
+          prose-blockquote:pl-4
+          prose-li:marker:text-blue-600
+          max-w-none
+        "
+      >
         <MDXRemote source={content} />
       </div>
+
+      {/* -------- Related Posts -------- */}
+      {related.length > 0 && (
+        <section className="mt-16 border-t pt-10">
+          <h2 className="text-2xl font-bold mb-6">Related Posts</h2>
+
+          <div className="grid gap-6">
+            {related.map((post: any) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="block p-4 border rounded-lg hover:bg-gray-50 transition"
+              >
+                <h3 className="text-lg font-semibold">{post.title}</h3>
+                {post.date && (
+                  <p className="text-gray-500 text-sm mt-1">
+                    {new Date(post.date).toLocaleDateString()}
+                  </p>
+                )}
+                {post.summary && (
+                  <p className="text-gray-700 text-sm mt-2">{post.summary}</p>
+                )}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
     </article>
   );
 }
