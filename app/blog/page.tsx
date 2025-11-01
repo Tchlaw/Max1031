@@ -37,7 +37,14 @@ export default function BlogIndex() {
         <h2 className="text-2xl md:text-3xl font-bold">Latest Articles</h2>
 
         {posts
-          .sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf())
+          .sort((a, b) => {
+            // Put featured posts first
+            if (a.featured && !b.featured) return -1;
+            if (!a.featured && b.featured) return 1;
+
+            // Otherwise sort by date
+            return new Date(b.date).valueOf() - new Date(a.date).valueOf();
+          })
           .map((post) => (
             <article key={post.slug} className="border-b pb-6 hover:bg-gray-50 transition-colors rounded-lg p-3 -mx-3">
               <Link href={`/blog/${post.slug}`}>
