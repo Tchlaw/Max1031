@@ -13,7 +13,7 @@ const postsDir = path.join(process.cwd(), "content/posts");
 export async function generateStaticParams() {
   const files = fs.readdirSync(postsDir);
   return files.map((filename) => ({
-    slug: filename.replace(".mdx", ""),
+    slug: frontmatter.slug || filename.replace(".mdx", ""),
   }));
 }
 
@@ -29,7 +29,7 @@ export default async function BlogPost({ params }: { params: { slug: string } })
     const { data: frontmatter } = matter(raw);
     return {
       ...frontmatter,
-      slug: filename.replace(".mdx", ""),
+      slug: frontmatter.slug || filename.replace(".mdx", ""),
     };
   });
 
