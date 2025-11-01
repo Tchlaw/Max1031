@@ -81,6 +81,14 @@ export default async function BlogPost({ params }: { params: { slug: string } })
 
       </div>
 
+
+    {/* -------- Disclaimer -------- */}
+      <div className="mt-10 text-xs text-gray-600 border-l-4 border-yellow-400 bg-yellow-50 p-4 rounded">
+        <strong>Disclaimer:</strong> This article is for educational purposes only and does not constitute
+        legal, tax, or financial advice. 1031 exchanges are highly fact-specific and subject to changing rules.
+        Always consult a qualified CPA and attorney before acting.
+      </div>
+      
       {/* -------- Related Posts -------- */}
       {related.length > 0 && (
         <section className="mt-16 border-t pt-10">
