@@ -7,80 +7,79 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import rehypePrettyCode from "rehype-pretty-code";
 
-
 const postsDir = path.join(process.cwd(), "content/posts");
 
 export async function generateStaticParams() {
   const files = fs.readdirSync(postsDir);
-  return files.map((filename) => ({
-    slug: frontmatter.slug || filename.replace(".mdx", ""),
-  }));
+
+  return files.map((filename) => {
+    const raw = fs.readFileSync(path.join(postsDir, filename), "utf8");
+    const { data } = matter(raw);
+
+    return {
+      slug: data.slug || filename.replace(".mdx", ""),
+    };
+  });
 }
 
 export default async function BlogPost({ params }: { params: { slug: string } }) {
-  const filePath = path.join(postsDir, `${params.slug}.mdx`);
+  const files = fs.readdirSync(postsDir);
+
+  // Find the file by frontmatter slug OR filename
+  const filename = files.find((file) => {
+    const raw = fs.readFileSync(path.join(postsDir, file), "utf8");
+    const { data } = matter(raw);
+    return (data.slug || file.replace(".mdx", "")) === params.slug;
+  });
+
+  if (!filename) {
+    return <div>Post not found.</div>;
+  }
+
+  const filePath = path.join(postsDir, filename);
   const file = fs.readFileSync(filePath, "utf8");
   const { content, data } = matter(file);
 
-  // ---- Load ALL posts (for Related Posts section) ----
-  const files = fs.readdirSync(postsDir);
-  const allPosts = files.map((filename) => {
-    const raw = fs.readFileSync(path.join(postsDir, filename), "utf8");
+  // Load all posts
+  const allPosts = files.map((file) => {
+    const raw = fs.readFileSync(path.join(postsDir, file), "utf8");
     const { data: frontmatter } = matter(raw);
+
     return {
       ...frontmatter,
-      slug: frontmatter.slug || filename.replace(".mdx", ""),
+      slug: frontmatter.slug || file.replace(".mdx", ""),
     };
   });
 
+  // Find related
   const related = (data.relatedPosts || [])
     .map((slug: string) => allPosts.find((p) => p.slug === slug))
     .filter(Boolean);
 
   return (
     <article className="mx-auto max-w-3xl px-4 py-12">
-      <Link
-        href="/blog"
-        className="text-blue-600 hover:underline flex items-center gap-2 text-sm mb-8"
-      >
+      <Link href="/blog" className="text-blue-600 hover:underline flex items-center gap-2 text-sm mb-8">
         <ArrowLeft className="h-4 w-4" /> Back to Blog
       </Link>
 
-      <h1 className="text-4xl font-bold leading-tight mb-3">
-        {data.title}
-      </h1>
+      <h1 className="text-4xl font-bold leading-tight mb-3">{data.title}</h1>
 
       <p className="text-gray-500 text-sm mb-10">
         {new Date(data.date).toLocaleDateString()}
       </p>
 
-      <div
-        className="
-          prose prose-lg
-          prose-table:border
-          prose-table:border-gray-300
-          prose-th:bg-gray-100
-          prose-th:font-semibold
-          prose-td:p-3
-          prose-th:p-3
-          prose-td:border
-          prose-th:border
-          max-w-none
-        "
-      >
+      <div className="prose prose-lg max-w-none">
         <MDXRemote
-  source={content}
-  options={{
-    mdxOptions: {
-      remarkPlugins: [remarkGfm],
-      rehypePlugins: [rehypePrettyCode],
-    },
-  }}
-/>
-
+          source={content}
+          options={{
+            mdxOptions: {
+              remarkPlugins: [remarkGfm],
+              rehypePlugins: [rehypePrettyCode],
+            },
+          }}
+        />
       </div>
 
-      {/* -------- Related Posts -------- */}
       {related.length > 0 && (
         <section className="mt-16 border-t pt-10">
           <h2 className="text-2xl font-bold mb-6">Related Posts</h2>
