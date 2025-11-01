@@ -30,6 +30,7 @@ export default async function BlogPost({ params }: { params: { slug: string } })
     return {
       ...frontmatter,
       slug: frontmatter.slug || filename.replace(".mdx", ""),
+      fileSlug: filename.replace(".mdx", ""),
     };
   });
 
@@ -89,7 +90,7 @@ export default async function BlogPost({ params }: { params: { slug: string } })
             {related.map((post: any) => (
               <Link
                 key={post.slug}
-                href={`/blog/${post.slug}`}
+                href={`/blog/${post.fileSlug}`}
                 className="block p-4 border rounded-lg hover:bg-gray-50 transition"
               >
                 <h3 className="text-lg font-semibold">{post.title}</h3>
