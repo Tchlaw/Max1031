@@ -40,13 +40,18 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">MAXIMIZE 1031</h2>
             <div className="w-20 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-lg text-gray-700 mb-6">
-              At Maximize 1031, we specialize in helping real estate investors defer capital gains taxes through 1031
-              exchanges.
-            </p>
-            <p className="text-lg text-gray-700 mb-8">
-              We ensure that your exchange complies with IRS regulations, allowing you
-              to defer your capital gains taxes and maximize your investment potential.
-            </p>
+  At Maximize 1031, we coordinate 1031 exchanges by helping property owners manage timelines,
+  documentation, and replacement property identification rules.
+</p>
+<p className="text-lg text-gray-700 mb-6">
+  We leverage Exchange Manager Pro℠ patented workflow technology and the exchange facilitation
+  capabilities of Accruit LLC, one of the nation’s leading Qualified Intermediaries and an Inspira
+  Financial solution.
+</p>
+<p className="text-lg text-gray-700 mb-8">
+  Our role is to simplify the 1031 exchange process and provide clarity so you can focus on closing
+  your real estate transaction.
+</p>
             <div className="text-center">
               <Button asChild className="bg-blue-500 hover:bg-blue-600 text-white">
                 <Link href="#contact">Work With Us</Link>
