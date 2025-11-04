@@ -72,9 +72,10 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-sky-800 mt-12 pt-6 text-center text-sm text-sky-200">
-          <p>&copy; {new Date().getFullYear()} Maximize 1031. All rights reserved.</p>
-        </div>
+        <div className="border-t border-sky-800 mt-12 pt-6 text-center text-sm text-sky-200 space-y-2">
+  <p>&copy; {new Date().getFullYear()} Maximize 1031. All rights reserved.</p>
+  <p>Maximize 1031 does not provide tax, legal, or investment advice. Please consult your qualified tax, legal, and investment professionals regarding your specific situation.</p>
+</div>
       </div>
     </footer>
   )
