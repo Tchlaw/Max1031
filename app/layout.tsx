@@ -25,19 +25,7 @@ export default function RootLayout({
       <body className={inter.className}>
 
 
-{/* Google Analytics - ADD THIS SECTION */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-0D90N0FQYZ"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-0D90N0FQYZ');
-          `}
-        </Script>
+
 
         
         <ThemeProvider attribute="class" defaultTheme="light">
