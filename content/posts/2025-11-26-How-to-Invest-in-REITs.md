@@ -1,5 +1,22 @@
 ---
 title: "How to Invest in REITs"
+slug: "How-to-Invest-in-REITs"
+date: "2025-11-26"
+updated: "2025-11-26"
+category: "1031-exchanges"
+tags: ["1031 exchange", "REIT", "Section 721", "UPREIT", "DST"]
+summary: "A clear, founder-level guide to how UPREITs and Section 721 exchanges actually work, who they’re right for, and the hidden risks investors must understand."
+keywords: ["1031 exchange", "REIT", "Section 721", "UPREIT", "DST"]
+canonical: "https://www.maximize1031.com/blog/1031-exchanges/How-to-Invest-in-REITs"
+author: "Shant Tchakerian"
+readingTime: 11
+relatedPosts:
+  - "understanding-1031-exchange-basics"
+  - "bona-fide-1031-failed-exchange-tax-deferral"
+
+
+
+title: "How to Invest in REITs"
 date: 2025-11-26
 description: A clear, founder-level guide to how UPREITs and Section 721 exchanges actually work, who they’re right for, and the hidden risks investors must understand.
 slug: how-to-invest-in-reits
