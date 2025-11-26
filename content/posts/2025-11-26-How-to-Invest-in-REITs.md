@@ -13,28 +13,6 @@ readingTime: 11
 relatedPosts:
   - "understanding-1031-exchange-basics"
   - "bona-fide-1031-failed-exchange-tax-deferral"
-
-
-
-title: "How to Invest in REITs"
-date: 2025-11-26
-description: A clear, founder-level guide to how UPREITs and Section 721 exchanges actually work, who they’re right for, and the hidden risks investors must understand.
-slug: how-to-invest-in-reits
-image: /images/upreit-721-header.jpg
-tags:
-  - 1031 exchange
-  - 721 exchange
-  - UPREIT
-  - REIT
-  - DST
-  - tax strategy
-  - real estate investing
-draft: false
-metaTitle: "UPREITs & Section 721 Exchanges Explained — The Real Risks and Benefits"
-metaDescription: Learn how Section 721 UPREIT exchanges work, how they interact with 1031 and DSTs, and when this tax strategy is powerful—or dangerous. A clear, investor-friendly guide.
-ogTitle: UPREITs & Section 721 Exchanges: What Investors Need to Know
-ogDescription: "The clearest guide to how 721 UPREIT exchanges actually work, their benefits, risks, and when they make sense for real estate investors."
-ogImage: /images/upreit-721-header.jpg
 ---
 
 Many real estate investors know about **1031 exchanges**.  
