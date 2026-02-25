@@ -229,7 +229,7 @@ export default function PrivacyPage() {
       </ul>
       <p style={styles.p}>
         To submit a request, email us at{" "}
-        <a href="mailto:sean@maximize1031.com">sean@maximize1031.com</a>. We may
+        <a href="mailto:info@maximize1031.com">info@maximize1031.com</a>. We may
         need to verify your identity before completing your request.
       </p>
 
@@ -263,7 +263,7 @@ export default function PrivacyPage() {
       <p style={styles.p}>
         <strong>Maximize 1031</strong>
         <br />
-        Email: <a href="mailto:sean@maximize1031.com">sean@maximize1031.com</a>
+        Email: <a href="mailto:info@maximize1031.com">info@maximize1031.com</a>
         <br />
         United States
       </p>
