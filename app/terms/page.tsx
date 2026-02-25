@@ -107,26 +107,35 @@ export default function TermsPage() {
         endorsement.
       </p>
 
-      <h2 style={styles.h2}>9. Privacy</h2>
+      <h2 style={styles.h2}>9. SMS Terms of Service</h2>
+      <p style={styles.p}>
+        By opting into SMS from a web form or other medium, you are agreeing to receive 
+        SMS messages from Maximize 1031. This includes SMS messages for conversations (external). 
+        Message frequency varies. Message and data rates may apply. 
+        See privacy policy at https://www.maximize1031.com/privacy. 
+        Message HELP for help. Reply STOP to any message to opt out.
+      </p>
+
+      <h2 style={styles.h2}>10. Privacy</h2>
       <p style={styles.p}>
         Your use of the Site is also governed by our Privacy Policy, which
         describes how we collect and use personal information.
       </p>
 
-      <h2 style={styles.h2}>10. Changes to These Terms</h2>
+      <h2 style={styles.h2}>11. Changes to These Terms</h2>
       <p style={styles.p}>
         We may update these Terms from time to time. Changes will be posted on
         this page with an updated effective date. Continued use of the Site after
         changes become effective constitutes acceptance of the revised Terms.
       </p>
 
-      <h2 style={styles.h2}>11. Governing Law</h2>
+      <h2 style={styles.h2}>12. Governing Law</h2>
       <p style={styles.p}>
         These Terms are governed by the laws of the State of California, without
         regard to conflict-of-law principles.
       </p>
 
-      <h2 style={styles.h2}>12. Contact Us</h2>
+      <h2 style={styles.h2}>13. Contact Us</h2>
       <p style={styles.p}>
         If you have questions about these Terms, contact:
       </p>
