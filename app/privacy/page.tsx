@@ -170,8 +170,9 @@ export default function PrivacyPage() {
           to protect our rights and the safety of others.
         </li>
       </ul>
-
-      <h2 style={styles.h2}>6. Cookies &amp; Analytics</h2>
+<p style={styles.p}>
+        SMS consent is not shared with third parties.
+      </p>      <h2 style={styles.h2}>6. Cookies &amp; Analytics</h2>
       <p style={styles.p}>
         The Site may use cookies and similar technologies to support basic
         functionality and to understand how visitors use the Site. These tools
