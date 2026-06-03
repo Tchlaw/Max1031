@@ -19,7 +19,7 @@ export default function Logo({ variant = "dark", className = "" }: LogoProps) {
         </svg>
       </div>
       <div className={`font-bold text-lg ${textColor}`}>
-        MAXIMIZE <span className="italic">1031</span>
+        MAXIMIZE <span className="italic">1031_</span>
       </div>
     </div>
   )
